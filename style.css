@@ -41,4 +41,12 @@ button:hover {
     padding: 10px;
     font-weight: bold;
     margin: 0;
+    width: 100%;
+}
+
+#result{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }

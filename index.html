@@ -7,22 +7,13 @@
 </head>
 <body>
 <div class="container">
-    <h3>Génerateur de mot de passe</h3>
-    <label for="longueur">Longueur
-        <input type="number" id="longueur" min="8" max="25" step="1" value="12">
-    </label>
-    <label for="majuscule">
-        <input type="checkbox" id="majuscule">Majuscule
-    </label>
-    <label for="minuscule">
-        <input type="checkbox" id="minuscule">Minuscule
-    </label>
-    <label for="number">
-        <input type="checkbox" id="number">Nombres
-    </label>
+    <h3>Générateur de mot de passe</h3>
     <button>Générer</button>
-    <p id="motDePasse"></p>
-    <p id="erreur"></p>
+    <div id="result">
+        <p id="motDePasse"></p>
+        <button id="copie">copy</button>
+    </div>
+    <p id="information"></p>
 </div>
 <script src="script.js"></script>
 </body>

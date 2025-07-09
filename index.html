@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Generateur de mot de passe</title>
-  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="container">
+    <h3>Génerateur de mot de passe</h2>
+    <label for="longueur">Longueur
+        <input type="number" id="longueur">
+    </label>
+    <label for="majuscule">
+        <input type="checkbox" id="majuscule">Majuscule
+    </label>
+    <label for="minuscule">
+        <input type="checkbox" id="minuscule">Minuscule
+    </label>
+    <label for="number">
+        <input type="checkbox" id="number">Nombres
+    </label>
+    <button>Générer</button>
+    <p id="motDePasse"></p>
+</div>
 </body>
 </html>

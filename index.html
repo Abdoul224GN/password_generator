@@ -7,9 +7,9 @@
 </head>
 <body>
 <div class="container">
-    <h3>Génerateur de mot de passe</h2>
+    <h3>Génerateur de mot de passe</h3>
     <label for="longueur">Longueur
-        <input type="number" id="longueur">
+        <input type="number" id="longueur" min="8" max="25" step="1" value="12">
     </label>
     <label for="majuscule">
         <input type="checkbox" id="majuscule">Majuscule
@@ -22,6 +22,8 @@
     </label>
     <button>Générer</button>
     <p id="motDePasse"></p>
+    <p id="erreur"></p>
 </div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ body {
 }
 
 button {
-    background: #2d89ef;
+    background: #ec9456;
     color: white;
     padding: 10px;
     border: none;
@@ -30,12 +30,15 @@ button {
 }
 
 button:hover {
-    background: #2d89ef;
+    background: #f56a14;
 }
 
-p {
-    height: 40px;
+#motDePasse {
+    height: 20px;
     border-radius: 5px;
     background-color: white;
     border: 1px solid #d8d8d8;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0;
 }
